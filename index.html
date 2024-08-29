@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recorder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="recorder">
+        <h2>Voice Recorder</h2>
+        <div id="timer">00:00</div> <!-- Recording Timer -->
+        <button id="recordButton">Start Recording</button>
+        <button id="stopButton" disabled>Stop Recording</button>
+        <button id="retakeButton" disabled>Retake</button>
+        <button id="uploadButton" disabled>Upload</button>
+        <audio id="audioPlayback" controls></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
